@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  font-size: 100%;
+  /* 폰트 유동값 : 100%시 기본 16px이므로 사용할 값/16(html 적용값) = rem값 ex) 16px로 사용하고 싶을 경우 16/16 = 1rem */
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+img,
+svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
